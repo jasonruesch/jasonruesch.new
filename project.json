@@ -65,6 +65,59 @@
       "options": {
         "lintFilePatterns": ["./src"]
       }
+    },
+    "container": {
+      "executor": "@nx-tools/nx-container:build",
+      "defaultConfiguration": "production",
+      "options": {
+        "engine": "docker",
+        "metadata": {
+          "images": ["ghcr.io/jasonruesch"],
+          "load": true,
+          "push": true,
+          "tags": [
+            "type=schedule",
+            "type=ref,event=branch",
+            "type=ref,event=tag",
+            "type=ref,event=pr",
+            "type=sha,prefix=sha-"
+          ]
+        }
+      },
+      "configurations": {
+        "development": {
+          "file": "Dockerfile",
+          "metadata": {
+            "images": ["jasonruesch"],
+            "push": false,
+            "tags": ["type=sha,prefix=sha-"]
+          }
+        },
+        "production": {
+          "file": "Dockerfile.prod",
+          "metadata": {
+            "images": ["ghcr.io/jasonruesch"],
+            "load": true,
+            "push": true,
+            "cache-from": ["type=gha"],
+            "cache-to": ["type=gha,mode=max"],
+            "tags": [
+              "type=ref,event=branch",
+              "type=ref,event=tag",
+              "type=sha",
+              "type=sha,format=long",
+              "latest"
+            ]
+          }
+        }
+      }
+    },
+    "semantic-release": {
+      "executor": "@theunderscorer/nx-semantic-release:semantic-release",
+      "options": {
+        "npm": false,
+        "tagFormat": "jasonruesch-v${VERSION}"
+      }
     }
   },
   "tags": []
