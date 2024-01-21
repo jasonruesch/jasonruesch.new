@@ -26,16 +26,18 @@ export const tailwindPreset = {
     createThemes(
       ({ light, dark }) => ({
         light: light({
-          primary: colors.amber,
-          neutral: colors.stone,
+          primary: colors.cyan,
+          secondary: colors.fuchsia,
+          neutral: colors.neutral,
           success: colors.green,
           warning: colors.yellow,
           danger: colors.red,
           info: colors.blue,
         }),
         dark: dark({
-          primary: colors.orange,
-          neutral: colors.stone,
+          primary: colors.violet,
+          secondary: colors.teal,
+          neutral: colors.neutral,
           success: colors.green,
           warning: colors.yellow,
           danger: colors.red,

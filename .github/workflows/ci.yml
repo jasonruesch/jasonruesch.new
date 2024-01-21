@@ -69,6 +69,6 @@ jobs:
           cache: 'npm'
       - run: npm ci
 
-      - run: HUSKY=0 npx nx run jasonruesch:semantic-release
+      - run: HUSKY=0 npx nx run-many -t semantic-release --all --parallel=3
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
