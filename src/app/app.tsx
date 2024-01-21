@@ -8,8 +8,8 @@ export function App() {
       <div>
         <NxWelcome title="Jason Ruesch" />
       </div>
-      <footer style={{ padding: '2rem 0' }}>
-        <p style={{ textAlign: 'center' }}>
+      <footer className="py-8">
+        <p className="text-center">
           &copy; {new Date().getFullYear()} Jason Ruesch. All rights reserved.
         </p>
       </footer>
