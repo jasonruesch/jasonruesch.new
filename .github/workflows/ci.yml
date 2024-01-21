@@ -13,6 +13,7 @@ permissions:
 
 jobs:
   # main:
+  #   if: contains(github.event.head_commit.message, 'chore(release)') != true
   #   name: Nx Cloud - Main Job
   #   uses: nrwl/ci/.github/workflows/nx-cloud-main.yml@v0.13.1
   #   with:
@@ -33,6 +34,7 @@ jobs:
   #   with:
   #     number-of-agents: 3
   main:
+    if: contains(github.event.head_commit.message, 'chore(release)') != true
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -67,6 +69,6 @@ jobs:
           cache: 'npm'
       - run: npm ci
 
-      - run: npx nx run jasonruesch:semantic-release
+      - run: HUSKY=0 npx nx run jasonruesch:semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
