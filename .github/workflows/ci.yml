@@ -10,29 +10,10 @@ permissions:
   actions: read
   # Write permission needed for nx-semantic-release to create releases
   contents: write
+  # Write permission needed for nx-semantic-release to create packages
+  packages: write
 
 jobs:
-  # main:
-  #   if: contains(github.event.head_commit.message, 'chore(release)') != true
-  #   name: Nx Cloud - Main Job
-  #   uses: nrwl/ci/.github/workflows/nx-cloud-main.yml@v0.13.1
-  #   with:
-  #     main-branch-name: main
-  #     number-of-agents: 3
-  #     init-commands: |
-  #       npx nx-cloud start-ci-run --stop-agents-after="build" --agent-count=3
-  #     parallel-commands: |
-  #       npx nx-cloud record -- npx nx format:check
-  #     parallel-commands-on-agents: |
-  #       npx nx affected --target=lint --parallel=3
-  #       npx nx affected --target=test --parallel=3 --ci --code-coverage
-  #       npx nx affected --target=build --parallel=3
-
-  # agents:
-  #   name: Nx Cloud - Agents
-  #   uses: nrwl/ci/.github/workflows/nx-cloud-agents.yml@v0.13.1
-  #   with:
-  #     number-of-agents: 3
   main:
     if: contains(github.event.head_commit.message, 'chore(release)') != true
     runs-on: ubuntu-latest
@@ -56,11 +37,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
-      - name: Configure Git
-        run: |
-          git config user.name "${GITHUB_ACTOR}"
-          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+        with:
+          fetch-depth: 0
+          persist-credentials: false
 
       # Cache node_modules
       - uses: actions/setup-node@v3
@@ -69,6 +48,8 @@ jobs:
           cache: 'npm'
       - run: npm ci
 
-      - run: HUSKY=0 npx nx run jasonruesch:semantic-release
+      - run: HUSKY=0 npx nx run-many -t semantic-release --all --parallel=1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
