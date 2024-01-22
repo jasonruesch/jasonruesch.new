@@ -1,3 +1,15 @@
+# [1.6.0](https://github.com/jasonruesch/jasonruesch/compare/tailwind-v1.5.0...tailwind-v1.6.0) (2024-01-22)
+
+
+### Bug Fixes
+
+* **jasonruesch:** use h1 selector when testing title ([c24dcb1](https://github.com/jasonruesch/jasonruesch/commit/c24dcb1afd89cecf3c9e0fecdb01a3caa0cc7a5a))
+
+
+### Features
+
+* **jasonruesch:** add logo and dark colors ([5e1b742](https://github.com/jasonruesch/jasonruesch/commit/5e1b74298a484d55c4527979c93b5ace07dc5070))
+
 # [1.5.0](https://github.com/jasonruesch/jasonruesch/compare/tailwind-v1.4.0...tailwind-v1.5.0) (2024-01-22)
 
 

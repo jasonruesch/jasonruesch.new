@@ -1,3 +1,52 @@
+# [1.17.0](https://github.com/jasonruesch/jasonruesch/compare/jasonruesch-v1.16.0...jasonruesch-v1.17.0) (2024-01-22)
+
+
+### Features
+
+* **jasonruesch:** change footer text color ([61b5f61](https://github.com/jasonruesch/jasonruesch/commit/61b5f61c9dad78471d2763e56d2133baab6d95fd))
+
+# [1.16.0](https://github.com/jasonruesch/jasonruesch/compare/jasonruesch-v1.15.0...jasonruesch-v1.16.0) (2024-01-22)
+
+
+### Features
+
+* **jasonruesch:** add subtitle ([67a15e0](https://github.com/jasonruesch/jasonruesch/commit/67a15e045f410797409cda21f214c76b55cfc171))
+
+# [1.15.0](https://github.com/jasonruesch/jasonruesch/compare/jasonruesch-v1.14.0...jasonruesch-v1.15.0) (2024-01-22)
+
+
+### Features
+
+* **jasonruesch:** move logo in header and add footer logo ([8ddc517](https://github.com/jasonruesch/jasonruesch/commit/8ddc51779cf9caea3377e312fdc5d0dd7587cb54))
+* **jasonruesch:** update header and layout ([d1e4fbe](https://github.com/jasonruesch/jasonruesch/commit/d1e4fbee09ecb8ea0ad426b8652d7a0c2d720a6f))
+
+# [1.14.0](https://github.com/jasonruesch/jasonruesch/compare/jasonruesch-v1.13.0...jasonruesch-v1.14.0) (2024-01-22)
+
+
+### Features
+
+* **jasonruesch:** make logo a bit smaller ([8ad4d92](https://github.com/jasonruesch/jasonruesch/commit/8ad4d92a6ac9d4d1dce3f7ee2b083871bd925b39))
+* **jasonruesch:** make logo bigger ([6d1882b](https://github.com/jasonruesch/jasonruesch/commit/6d1882bfbe2b67101f33d2cf4d7d4f6c97a6107c))
+
+# [1.13.0](https://github.com/jasonruesch/jasonruesch/compare/jasonruesch-v1.12.0...jasonruesch-v1.13.0) (2024-01-22)
+
+
+### Bug Fixes
+
+* **jasonruesch:** use h1 selector when testing title ([c24dcb1](https://github.com/jasonruesch/jasonruesch/commit/c24dcb1afd89cecf3c9e0fecdb01a3caa0cc7a5a))
+
+
+### Features
+
+* **jasonruesch:** add logo and dark colors ([5e1b742](https://github.com/jasonruesch/jasonruesch/commit/5e1b74298a484d55c4527979c93b5ace07dc5070))
+
+# [1.12.0](https://github.com/jasonruesch/jasonruesch/compare/jasonruesch-v1.11.0...jasonruesch-v1.12.0) (2024-01-22)
+
+
+### Features
+
+* **jasonruesch:** update page layout ([4e45f89](https://github.com/jasonruesch/jasonruesch/commit/4e45f89953a1d6b2672d189855b6bce468b47d5f))
+
 # [1.11.0](https://github.com/jasonruesch/jasonruesch/compare/jasonruesch-v1.10.0...jasonruesch-v1.11.0) (2024-01-22)
 
 
