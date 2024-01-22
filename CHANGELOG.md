@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/jasonruesch/jasonruesch/compare/jasonruesch-v1.4.0...jasonruesch-v1.5.0) (2024-01-22)
+
+
+### Features
+
+* **tailwind:** add heading defaults back ([408ef72](https://github.com/jasonruesch/jasonruesch/commit/408ef72ee70b3cc39e2a65c36eb92672ba19fd3d))
+
 # [1.4.0](https://github.com/jasonruesch/jasonruesch/compare/jasonruesch-v1.3.0...jasonruesch-v1.4.0) (2024-01-22)
 
 
