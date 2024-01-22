@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/jasonruesch/jasonruesch/compare/jasonruesch-v1.8.0...jasonruesch-v1.9.0) (2024-01-22)
+
+
+### Features
+
+* **tailwind:** add strict property back ([9adfaa9](https://github.com/jasonruesch/jasonruesch/commit/9adfaa982e47d9a1cc3bbd39e06afcd27941ea8d))
+
 # [1.8.0](https://github.com/jasonruesch/jasonruesch/compare/jasonruesch-v1.7.0...jasonruesch-v1.8.0) (2024-01-22)
 
 
