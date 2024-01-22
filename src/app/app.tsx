@@ -1,4 +1,4 @@
-import { Logo, LogoNeutral } from '@/components';
+import { Logo, LogoNeutral } from '../components';
 
 export function App() {
   return (
