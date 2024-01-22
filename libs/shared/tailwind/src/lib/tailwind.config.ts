@@ -49,7 +49,7 @@ export const tailwindPreset = {
           light: 'light',
           dark: 'dark',
         },
-        // strict: true,
+        strict: true,
         produceCssVariable: (colorName) => `--jr-${colorName}`,
         produceThemeClass: (themeName) => `theme-${themeName}`,
         produceThemeVariant: (themeName) => `theme-${themeName}`,
