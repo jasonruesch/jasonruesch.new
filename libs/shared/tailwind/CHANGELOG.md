@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/jasonruesch/jasonruesch/compare/tailwind-v1.2.0...tailwind-v1.3.0) (2024-01-22)
+
+
+### Features
+
+* **tailwind:** add grid component back ([df739b7](https://github.com/jasonruesch/jasonruesch/commit/df739b704f0e219516b68a1e3e0b6aaf88eca205))
+
 # [1.2.0](https://github.com/jasonruesch/jasonruesch/compare/tailwind-v1.1.0...tailwind-v1.2.0) (2024-01-22)
 
 
