@@ -62,10 +62,10 @@ jobs:
           fetch-depth: 0
           persist-credentials: false
 
-      - name: Configure Git
-        run: |
-          git config user.name "${GITHUB_ACTOR}"
-          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+      # - name: Configure Git
+      #   run: |
+      #     git config user.name "${GITHUB_ACTOR}"
+      #     git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
 
       # Cache node_modules
       - uses: actions/setup-node@v3
