@@ -22,7 +22,7 @@ export const tailwindPreset = {
   plugins: [
     forms,
     aspectRatio,
-    // require('tailwindcss-safe-area'),
+    require('tailwindcss-safe-area'),
     createThemes(
       ({ light, dark }) => ({
         light: light({

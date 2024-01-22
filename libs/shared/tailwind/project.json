@@ -36,9 +36,10 @@
     "semantic-release": {
       "executor": "@theunderscorer/nx-semantic-release:semantic-release",
       "options": {
+        "npm": true,
         "tagFormat": "tailwind-v${VERSION}"
       }
     }
   },
-  "tags": ["type:config", "scope:shared"]
+  "tags": ["type:ui", "scope:shared"]
 }
