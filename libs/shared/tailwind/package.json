@@ -7,7 +7,6 @@
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/forms": "^0.5.7",
     "tw-colors": "^3.3.1",
-    "tailwindcss-safe-area": "^0.4.1",
     "@nx/vite": "17.2.8",
     "vite": "^5.0.0",
     "vite-plugin-dts": "2.3.0"
