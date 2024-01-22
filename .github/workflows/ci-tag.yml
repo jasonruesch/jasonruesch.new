@@ -4,6 +4,7 @@ on:
   push:
     tags:
       - 'jasonruesch-v*'
+  workflow_dispatch:
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.event.ref }}
