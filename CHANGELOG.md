@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/jasonruesch/jasonruesch/compare/jasonruesch-v1.7.0...jasonruesch-v1.8.0) (2024-01-22)
+
+
+### Features
+
+* **tailwind:** remove strict theme property ([eef1ac2](https://github.com/jasonruesch/jasonruesch/commit/eef1ac263a59cebe1013cbb6c50b2b7a5de40a54))
+
 # [1.7.0](https://github.com/jasonruesch/jasonruesch/compare/jasonruesch-v1.6.0...jasonruesch-v1.7.0) (2024-01-22)
 
 
