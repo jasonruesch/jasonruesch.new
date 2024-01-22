@@ -1,0 +1,64 @@
+name: Tag CI
+
+on:
+  push:
+    tags:
+      - 'jasonruesch-v*'
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.ref }}
+  cancel-in-progress: true
+
+# Read permissions needed for nx-set-shas within nx-cloud-main.yml, when run on the main branch
+permissions:
+  actions: read
+  # Write permission needed for nx-semantic-release to create releases
+  contents: write
+  # Write permission needed for nx-semantic-release to create packages
+  packages: write
+  # Write permissions needed for deployment to GitHub Pages
+  pages: write
+  id-token: write
+
+jobs:
+  docker-publish:
+    runs-on: ubuntu-latest
+    env:
+      INPUT_PUSH: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: docker/setup-buildx-action@v2
+      - uses: docker/login-action@v2
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      # Cache node_modules
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 'lts/*'
+          cache: 'npm'
+      - run: npm ci
+
+      - run: npx nx run-many -t container --all --parallel=1
+        env:
+          INPUT_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # Cache node_modules
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 'lts/*'
+          cache: 'npm'
+      - run: npm ci
+
+      - uses: actions/configure-pages@v3
+      - uses: actions/upload-pages-artifact@v2
+        with:
+          # Upload dist repository
+          path: './dist/jasonruesch'
+      - uses: actions/deploy-pages@v2
+        id: deployment
