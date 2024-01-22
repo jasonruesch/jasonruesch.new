@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/jasonruesch/jasonruesch/compare/jasonruesch-v1.10.0...jasonruesch-v1.11.0) (2024-01-22)
+
+
+### Features
+
+* **jasonruesch:** remove example nx welcome component ([e9de774](https://github.com/jasonruesch/jasonruesch/commit/e9de7743e790a8e80e48a8494e12b23c17d4eaa3))
+
 # [1.10.0](https://github.com/jasonruesch/jasonruesch/compare/jasonruesch-v1.9.0...jasonruesch-v1.10.0) (2024-01-22)
 
 
