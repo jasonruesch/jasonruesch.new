@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/jasonruesch/jasonruesch/compare/jasonruesch-v1.6.0...jasonruesch-v1.7.0) (2024-01-22)
+
+
+### Features
+
+* **tailwind:** add grid component back ([df739b7](https://github.com/jasonruesch/jasonruesch/commit/df739b704f0e219516b68a1e3e0b6aaf88eca205))
+
 # [1.6.0](https://github.com/jasonruesch/jasonruesch/compare/jasonruesch-v1.5.0...jasonruesch-v1.6.0) (2024-01-22)
 
 
