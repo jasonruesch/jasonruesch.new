@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/jasonruesch/jasonruesch/compare/jasonruesch-v1.3.0...jasonruesch-v1.4.0) (2024-01-22)
+
+
+### Features
+
+* **tailwind:** remove heading defaults ([b185d61](https://github.com/jasonruesch/jasonruesch/commit/b185d61103d900dbac69b02bea95c7fd832bb24e))
+
 # [1.3.0](https://github.com/jasonruesch/jasonruesch/compare/jasonruesch-v1.2.0...jasonruesch-v1.3.0) (2024-01-22)
 
 
