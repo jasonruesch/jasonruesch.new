@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/jasonruesch/jasonruesch/compare/jasonruesch-v1.5.0...jasonruesch-v1.6.0) (2024-01-22)
+
+
+### Features
+
+* **tailwind:** remove grid component ([e6ac3eb](https://github.com/jasonruesch/jasonruesch/commit/e6ac3ebe75fddaa1b6761073251e062b66542874))
+
 # [1.5.0](https://github.com/jasonruesch/jasonruesch/compare/jasonruesch-v1.4.0...jasonruesch-v1.5.0) (2024-01-22)
 
 
