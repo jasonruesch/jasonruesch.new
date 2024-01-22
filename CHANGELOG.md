@@ -1,3 +1,10 @@
+# [1.12.0](https://github.com/jasonruesch/jasonruesch/compare/jasonruesch-v1.11.0...jasonruesch-v1.12.0) (2024-01-22)
+
+
+### Features
+
+* **jasonruesch:** update page layout ([4e45f89](https://github.com/jasonruesch/jasonruesch/commit/4e45f89953a1d6b2672d189855b6bce468b47d5f))
+
 # [1.11.0](https://github.com/jasonruesch/jasonruesch/compare/jasonruesch-v1.10.0...jasonruesch-v1.11.0) (2024-01-22)
 
 
