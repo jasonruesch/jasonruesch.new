@@ -1,3 +1,15 @@
+# [1.2.0](https://github.com/jasonruesch/jasonruesch/compare/jasonruesch-v1.1.0...jasonruesch-v1.2.0) (2024-01-22)
+
+
+### Bug Fixes
+
+* **tailwind:** remove unused package ([a0aed07](https://github.com/jasonruesch/jasonruesch/commit/a0aed0736bad66e425b03b2f50e596ebacb3ae28))
+
+
+### Features
+
+* **tailwind:** remove tailwindcss-safe-area for now ([b260f7e](https://github.com/jasonruesch/jasonruesch/commit/b260f7ebfcce2f5c11ab255219e7f5e1b07d21ac))
+
 # [1.1.0](https://github.com/jasonruesch/jasonruesch/compare/jasonruesch-v1.0.0...jasonruesch-v1.1.0) (2024-01-21)
 
 
