@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/jasonruesch/jasonruesch/compare/tailwind-v1.0.0...tailwind-v1.1.0) (2024-01-22)
+
+
+### Bug Fixes
+
+* **tailwind:** add missing dependency ([140445e](https://github.com/jasonruesch/jasonruesch/commit/140445ea9d0e4ba9f995734a7177b8b41860eea3))
+
+
+### Features
+
+* **tailwind:** add tailwindcss-safe-area package back ([a4a4063](https://github.com/jasonruesch/jasonruesch/commit/a4a4063fc005f1450b1e57f90b8e58620df79c9f))
+
 # 1.0.0 (2024-01-22)
 
 
