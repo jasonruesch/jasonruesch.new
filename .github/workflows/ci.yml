@@ -72,6 +72,8 @@ jobs:
           cache: 'npm'
       - run: npm ci
 
-      - run: HUSKY=0 npx nx run-many -t semantic-release --all --parallel=3
+      - run: HUSKY=0 npx nx run-many -t semantic-release --all --parallel=1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
