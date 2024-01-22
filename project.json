@@ -73,7 +73,7 @@
       "options": {
         "engine": "docker",
         "metadata": {
-          "images": ["ghcr.io/jasonruesch"],
+          "images": ["ghcr.io/jasonruesch/jasonruesch"],
           "load": true,
           "push": true,
           "tags": [
@@ -89,7 +89,7 @@
         "development": {
           "file": "Dockerfile",
           "metadata": {
-            "images": ["jasonruesch"],
+            "images": ["jasonruesch/jasonruesch"],
             "push": false,
             "tags": ["type=sha,prefix=sha-"]
           }
@@ -97,7 +97,7 @@
         "production": {
           "file": "Dockerfile.prod",
           "metadata": {
-            "images": ["ghcr.io/jasonruesch"],
+            "images": ["ghcr.io/jasonruesch/jasonruesch"],
             "load": true,
             "push": true,
             "cache-from": ["type=gha"],
