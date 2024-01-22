@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/jasonruesch/jasonruesch/compare/jasonruesch-v1.9.0...jasonruesch-v1.10.0) (2024-01-22)
+
+
+### Features
+
+* **jasonruesch:** remove unused css file ([22d596c](https://github.com/jasonruesch/jasonruesch/commit/22d596c3ba6bd8beb1d14cb25bad57056b40a8ac))
+
 # [1.9.0](https://github.com/jasonruesch/jasonruesch/compare/jasonruesch-v1.8.0...jasonruesch-v1.9.0) (2024-01-22)
 
 
