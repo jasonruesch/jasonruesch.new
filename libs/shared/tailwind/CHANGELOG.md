@@ -1,3 +1,12 @@
+# [1.2.0](https://github.com/jasonruesch/jasonruesch/compare/tailwind-v1.1.0...tailwind-v1.2.0) (2024-01-22)
+
+
+### Features
+
+* **tailwind:** add heading defaults back ([408ef72](https://github.com/jasonruesch/jasonruesch/commit/408ef72ee70b3cc39e2a65c36eb92672ba19fd3d))
+* **tailwind:** remove grid component ([e6ac3eb](https://github.com/jasonruesch/jasonruesch/commit/e6ac3ebe75fddaa1b6761073251e062b66542874))
+* **tailwind:** remove heading defaults ([b185d61](https://github.com/jasonruesch/jasonruesch/commit/b185d61103d900dbac69b02bea95c7fd832bb24e))
+
 # [1.1.0](https://github.com/jasonruesch/jasonruesch/compare/tailwind-v1.0.0...tailwind-v1.1.0) (2024-01-22)
 
 
