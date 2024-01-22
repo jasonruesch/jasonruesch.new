@@ -10,6 +10,8 @@ permissions:
   actions: read
   # Write permission needed for nx-semantic-release to create releases
   contents: write
+  # Write permission needed for nx-semantic-release to create packages
+  packages: write
 
 jobs:
   # main:
