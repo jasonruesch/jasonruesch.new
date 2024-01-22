@@ -11,10 +11,6 @@
         "outputPath": "dist/libs/shared/tailwind"
       }
     },
-    "publish": {
-      "dependsOn": ["build"],
-      "command": "node tools/scripts/publish.mjs tailwind {args.ver} {args.tag}"
-    },
     "test": {
       "executor": "@nx/vite:test",
       "outputs": ["{options.reportsDirectory}"],
@@ -35,7 +31,9 @@
     },
     "semantic-release": {
       "executor": "@theunderscorer/nx-semantic-release:semantic-release",
+      "dependsOn": ["build"],
       "options": {
+        "outputPath": "dist/libs/shared/tailwind",
         "npm": true,
         "tagFormat": "tailwind-v${VERSION}"
       }

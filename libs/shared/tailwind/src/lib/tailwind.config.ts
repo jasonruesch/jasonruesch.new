@@ -4,7 +4,7 @@ import type { Config } from 'tailwindcss';
 import plugin from 'tailwindcss/plugin';
 import { createThemes } from 'tw-colors';
 import colors from './base/colors';
-import headings from './base/headings';
+// import headings from './base/headings';
 import buttons from './components/buttons';
 import grid from './components/grid';
 
@@ -56,7 +56,7 @@ export const tailwindPreset = {
       },
     ),
     plugin(({ addBase, addComponents }) => {
-      addBase(headings);
+      // addBase(headings);
 
       addComponents(grid);
       addComponents(buttons);
