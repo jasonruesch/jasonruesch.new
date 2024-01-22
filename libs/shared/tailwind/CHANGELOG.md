@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/jasonruesch/jasonruesch/compare/tailwind-v1.3.0...tailwind-v1.4.0) (2024-01-22)
+
+
+### Features
+
+* **tailwind:** remove strict theme property ([eef1ac2](https://github.com/jasonruesch/jasonruesch/commit/eef1ac263a59cebe1013cbb6c50b2b7a5de40a54))
+
 # [1.3.0](https://github.com/jasonruesch/jasonruesch/compare/tailwind-v1.2.0...tailwind-v1.3.0) (2024-01-22)
 
 
