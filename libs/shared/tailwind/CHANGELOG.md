@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/jasonruesch/jasonruesch/compare/tailwind-v1.4.0...tailwind-v1.5.0) (2024-01-22)
+
+
+### Features
+
+* **tailwind:** add strict property back ([9adfaa9](https://github.com/jasonruesch/jasonruesch/commit/9adfaa982e47d9a1cc3bbd39e06afcd27941ea8d))
+
 # [1.4.0](https://github.com/jasonruesch/jasonruesch/compare/tailwind-v1.3.0...tailwind-v1.4.0) (2024-01-22)
 
 
