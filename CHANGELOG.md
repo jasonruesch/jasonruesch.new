@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/jasonruesch/jasonruesch/compare/jasonruesch-v1.3.0...jasonruesch-v1.4.0) (2024-01-24)
+
+
+### Features
+
+* **jasonruesch:** update heading font size on x-small screens ([2b05d44](https://github.com/jasonruesch/jasonruesch/commit/2b05d44c5a0ffe60c9e1bcde37d9e96e87b67e6c))
+
 # [1.3.0](https://github.com/jasonruesch/jasonruesch/compare/jasonruesch-v1.2.0...jasonruesch-v1.3.0) (2024-01-24)
 
 
