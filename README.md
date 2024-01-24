@@ -1,6 +1,6 @@
-# Jason Ruesch's Personal Website
+# Jason Ruesch
 
-Welcome to my GitHub repository for my personal website! I'm Jason Ruesch, a Senior Frontend Software Engineer, and this is where I share my passion for creating exceptional user experiences through web development. Whether you're here for code, collaboration, or just to connect, I'm thrilled to have you.
+Welcome to my GitHub profile! I'm Jason Ruesch, a Senior Frontend Software Engineer, and this is where I share my passion for creating exceptional user experiences through web development. Whether you're here for code, collaboration, or just to connect, I'm thrilled to have you.
 
 ## About Me
 
@@ -14,4 +14,4 @@ Beyond my professional pursuits, my family is my anchor. Spending quality time w
 
 Feel free to connect with me to discuss all things frontend development, share recommendations for must-watch shows, or exchange thoughts on the latest gaming adventures. Let's explore the digital world together!
 
-Thank you for visiting my GitHub repository. Happy coding! 👨‍💻✨
+Thank you for visiting my GitHub profile. Happy coding! 👨‍💻✨
