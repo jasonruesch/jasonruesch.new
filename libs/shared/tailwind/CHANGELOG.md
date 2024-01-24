@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/jasonruesch/jasonruesch/compare/tailwind-v1.1.0...tailwind-v1.2.0) (2024-01-24)
+
+
+### Features
+
+* **jasonruesch:** add routing and a home page ([7befc19](https://github.com/jasonruesch/jasonruesch/commit/7befc195fb6f96acbaebca3fbbebe6d373b770ff))
+
 # [1.1.0](https://github.com/jasonruesch/jasonruesch/compare/tailwind-v1.0.0...tailwind-v1.1.0) (2024-01-24)
 
 
