@@ -14,7 +14,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@jasonruesch/tailwind": ["libs/shared/tailwind/src/index.ts"]
+      "@jasonruesch/tailwind": ["libs/shared/tailwind/src/index.ts"],
+      "@jasonruesch/ui": ["libs/ui/src/index.ts"]
     }
   }
 }

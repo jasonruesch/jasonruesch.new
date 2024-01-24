@@ -12,9 +12,12 @@
   "dependencies": {
     "@swc/helpers": "~0.5.2",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-router-dom": "^6.21.3"
   },
   "devDependencies": {
+    "@babel/core": "^7.14.5",
+    "@babel/preset-react": "^7.14.5",
     "@commitlint/cli": "^18.4.4",
     "@commitlint/config-conventional": "^18.4.4",
     "@commitlint/config-nx-scopes": "^18.4.4",
@@ -69,6 +72,7 @@
     "tw-colors": "^3.3.1",
     "typescript": "^5.3.3",
     "vite": "^5.0.0",
+    "vite-plugin-dts": "~2.3.0",
     "vitest": "~0.34.6"
   },
   "config": {
