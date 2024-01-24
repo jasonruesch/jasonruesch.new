@@ -50,7 +50,6 @@ export const tailwindPreset = {
           dark: 'dark',
         },
         strict: true,
-        produceCssVariable: (colorName) => `--jr-${colorName}`,
         produceThemeClass: (themeName) => `theme-${themeName}`,
         produceThemeVariant: (themeName) => `theme-${themeName}`,
       },

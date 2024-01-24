@@ -5,16 +5,7 @@ on:
     branches:
       - main
 
-# Read permissions needed for nx-set-shas within nx-cloud-main.yml, when run on the main branch
-permissions:
-  actions: read
-  # Write permission needed for nx-semantic-release to create releases
-  contents: write
-  # Write permission needed for nx-semantic-release to create packages
-  packages: write
-  # Write permissions needed for deployment to GitHub Pages
-  pages: write
-  id-token: write
+permissions: write-all
 
 jobs:
   main:
@@ -71,8 +62,7 @@ jobs:
       - run: HUSKY=0 npx nx affected -t semantic-release --parallel=1
         env:
           GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
-          NPM_TOKEN: ${{ steps.generate_token.outputs.token }}
-          NODE_AUTH_TOKEN: ${{ steps.generate_token.outputs.token }}
+          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   deploy-pages:
     needs: release
