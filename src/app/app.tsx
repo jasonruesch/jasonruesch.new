@@ -1,27 +1,16 @@
-import { Logo, LogoNeutral } from '../components';
-
 export function App() {
   return (
-    <div className="min-h-dvh flex flex-col gap-8">
-      <header className="flex items-center shadow-sm bg-neutral-100 dark:bg-neutral-950 h-14 p-4 dark:shadow-black">
-        <Logo className="h-8 w-8" />
-      </header>
-
-      <main className="flex-1 flex flex-col items-center justify-center p-4">
-        <h1 className="mb-4 text-primary-500 dark:text-primary-400">
-          Jason Ruesch
+    <div className="flex min-h-dvh flex-col gap-8">
+      <main className="flex flex-1 flex-col items-center justify-center p-4">
+        <h1 className="max-w-screen-md bg-gradient-to-r from-primary-500 to-secondary-500 bg-clip-text pb-4 text-center text-5xl uppercase !leading-[1cap] text-transparent md:text-7xl dark:from-primary-400 dark:to-secondary-400">
+          I'm Jason Ruesch, a Senior Frontend Software Engineer
         </h1>
-        <p className="text-neutral-500 dark:text-neutral-400">
-          Hi, I'm a software engineer with focus on web development and design.
+        <p className="max-w-screen-md text-center text-xl text-neutral-500 md:text-2xl dark:text-neutral-400">
+          This is where I share my passion for creating exceptional user
+          experiences through web development. Whether you're here for code,
+          collaboration, or just to connect, I'm thrilled to have you.
         </p>
       </main>
-
-      <footer className="flex flex-col items-center justify-center gap-4 p-4">
-        <LogoNeutral className="h-8 w-8" />
-        <p className="text-neutral-500 dark:text-neutral-400">
-          &copy; {new Date().getFullYear()} Jason Ruesch. All rights reserved.
-        </p>
-      </footer>
     </div>
   );
 }

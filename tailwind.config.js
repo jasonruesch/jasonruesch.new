@@ -6,10 +6,7 @@ module.exports = {
   presets: [require('@jasonruesch/tailwind')],
   content: [
     join(__dirname, 'index.html'),
-    join(
-      __dirname,
-      '{src,pages,components,app}/**/*!(*.stories|*.spec).{ts,tsx,html}',
-    ),
+    join(__dirname, 'src/**/*!(*.spec).{ts,tsx,html}'),
     ...createGlobPatternsForDependencies(__dirname),
   ],
   theme: {
