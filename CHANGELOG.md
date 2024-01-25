@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/jasonruesch/jasonruesch/compare/jasonruesch-v1.9.0...jasonruesch-v1.10.0) (2024-01-25)
+
+
+### Features
+
+* **jasonruesch:** move styles on index.html ([c90ccc8](https://github.com/jasonruesch/jasonruesch/commit/c90ccc89329d1c732c4179f88bdb5c3bdbc1a4a2))
+
 # [1.9.0](https://github.com/jasonruesch/jasonruesch/compare/jasonruesch-v1.8.0...jasonruesch-v1.9.0) (2024-01-25)
 
 
