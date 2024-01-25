@@ -27,6 +27,6 @@ jobs:
       - run: npx nx build tailwind --skip-nx-cache
 
       - run: npm publish
-        working-directory: ./dist/shared/lib/tailwind
+        working-directory: ./dist/libs/shared/tailwind
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
