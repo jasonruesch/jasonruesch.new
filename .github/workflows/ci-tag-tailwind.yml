@@ -27,7 +27,7 @@ jobs:
       - run: npx nx build tailwind --skip-nx-cache
 
       # Replace tailwind-v** with ** to get the version number
-      - run: npm unpublish "tailwind@${$GITHUB_REF_NAME:10}"
+      - run: npm unpublish "@jasonruesch/tailwind@${GITHUB_REF_NAME:10}"
         working-directory: dist/libs/shared/tailwind
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
