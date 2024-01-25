@@ -24,16 +24,7 @@ jobs:
       - uses: nrwl/nx-set-shas@v3
 
       - run: npx nx-cloud record -- nx format:check
-      - run: npx nx affected -t lint,test --parallel=3
-      # Skip Nx cache for build to upload accurate version for deployment
-      - run: npx nx affected -t build --parallel=3 --skip-nx-cache
-
-      - uses: actions/configure-pages@v3
-      - if: ${{ hashFiles('./dist/jasonruesch/') != '' }}
-        uses: actions/upload-pages-artifact@v2
-        with:
-          # Upload dist repository
-          path: './dist/jasonruesch'
+      - run: npx nx affected -t lint,test,build --parallel=3
 
   release:
     needs: main
@@ -63,10 +54,3 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
           NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-  deploy-pages:
-    needs: release
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/deploy-pages@v2
-        id: deployment
