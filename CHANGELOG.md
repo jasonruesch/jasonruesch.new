@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/jasonruesch/jasonruesch/compare/jasonruesch-v1.7.0...jasonruesch-v1.8.0) (2024-01-25)
+
+
+### Features
+
+* **tailwind:** rename grid-custom to grid-layout ([c82b770](https://github.com/jasonruesch/jasonruesch/commit/c82b77069d57eaf4083696b1d47b35235c44ddad))
+
 # [1.7.0](https://github.com/jasonruesch/jasonruesch/compare/jasonruesch-v1.6.0...jasonruesch-v1.7.0) (2024-01-25)
 
 
