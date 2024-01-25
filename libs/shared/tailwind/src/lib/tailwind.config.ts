@@ -6,6 +6,7 @@ import { createThemes } from 'tw-colors';
 import colors from './base/colors';
 import headings from './base/headings';
 import buttons from './components/buttons';
+import grid from './components/grid';
 
 export const tailwindPreset = {
   theme: {
@@ -56,7 +57,7 @@ export const tailwindPreset = {
     plugin(({ addBase, addComponents }) => {
       addBase(headings);
 
-      // addComponents(grid);
+      addComponents(grid);
       addComponents(buttons);
     }),
   ],
