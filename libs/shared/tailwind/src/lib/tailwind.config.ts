@@ -1,8 +1,12 @@
 import aspectRatio from '@tailwindcss/aspect-ratio';
 import forms from '@tailwindcss/forms';
 import type { Config } from 'tailwindcss';
+import plugin from 'tailwindcss/plugin';
 import { createThemes } from 'tw-colors';
 import colors from './base/colors';
+import headings from './base/headings';
+import buttons from './components/buttons';
+import grid from './components/grid';
 
 export const tailwindPreset = {
   theme: {
@@ -50,12 +54,12 @@ export const tailwindPreset = {
         produceThemeVariant: (themeName) => `theme-${themeName}`,
       },
     ),
-    // plugin(({ addBase, addComponents }) => {
-    //   addBase(headings);
+    plugin(({ addBase, addComponents }) => {
+      addBase(headings);
 
-    //   addComponents(grid);
-    //   addComponents(buttons);
-    // }),
+      addComponents(grid);
+      addComponents(buttons);
+    }),
   ],
 } satisfies Omit<Config, 'content'>;
 
