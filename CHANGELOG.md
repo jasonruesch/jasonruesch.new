@@ -1,3 +1,16 @@
+# [1.5.0](https://github.com/jasonruesch/jasonruesch/compare/jasonruesch-v1.4.0...jasonruesch-v1.5.0) (2024-01-25)
+
+
+### Features
+
+* **tailwind:** remove custom plugin base and components until needed ([7b0d3fd](https://github.com/jasonruesch/jasonruesch/commit/7b0d3fd2bab19c74876ef69ad14cafe6d9e25062))
+* **tailwind:** remove grid component until it is used ([f705708](https://github.com/jasonruesch/jasonruesch/commit/f705708b7bfb4b75954b80593737be8a5847e3d2))
+
+
+### Reverts
+
+* **tailwind:** add grid component back ([4caab1f](https://github.com/jasonruesch/jasonruesch/commit/4caab1f41970d064219a93538828269a22fd2c21))
+
 # [1.4.0](https://github.com/jasonruesch/jasonruesch/compare/jasonruesch-v1.3.0...jasonruesch-v1.4.0) (2024-01-24)
 
 
