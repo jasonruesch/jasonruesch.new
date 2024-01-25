@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/jasonruesch/jasonruesch/compare/jasonruesch-v1.5.0...jasonruesch-v1.6.0) (2024-01-25)
+
+
+### Features
+
+* **jasonruesch:** add antialiased and update gradient ([bf76c67](https://github.com/jasonruesch/jasonruesch/commit/bf76c6736e85f7d4e82f4ccbd307a0009a3a70a3))
+
 # [1.5.0](https://github.com/jasonruesch/jasonruesch/compare/jasonruesch-v1.4.0...jasonruesch-v1.5.0) (2024-01-25)
 
 
