@@ -16,7 +16,7 @@
   "typings": "./index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jasonruesch/jasonruesch.git",
+    "url": "https://github.com/jasonruesch/jasonruesch",
     "directory": "libs/shared/tailwind"
   },
   "publishConfig": {

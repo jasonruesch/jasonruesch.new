@@ -1,5 +1,5 @@
 export default {
-  '.grid-layout': {
+  '.grid-custom': {
     '@apply grid grid-cols-4 gap-4 px-4': '',
 
     '@media screen(sm)': {

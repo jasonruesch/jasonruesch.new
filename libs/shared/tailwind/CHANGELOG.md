@@ -1,17 +1,3 @@
-# [1.5.0](https://github.com/jasonruesch/jasonruesch/compare/tailwind-v1.4.0...tailwind-v1.5.0) (2024-01-25)
-
-
-### Features
-
-* **tailwind:** rename grid-custom to grid-layout ([c82b770](https://github.com/jasonruesch/jasonruesch/commit/c82b77069d57eaf4083696b1d47b35235c44ddad))
-
-# [1.4.0](https://github.com/jasonruesch/jasonruesch/compare/tailwind-v1.3.0...tailwind-v1.4.0) (2024-01-25)
-
-
-### Features
-
-* **tailwind:** add custom plugins for base and components ([3fa1b40](https://github.com/jasonruesch/jasonruesch/commit/3fa1b402c987eb09a480ef1ad0c0eb9d08e62b8b))
-
 # [1.3.0](https://github.com/jasonruesch/jasonruesch/compare/tailwind-v1.2.0...tailwind-v1.3.0) (2024-01-25)
 
 

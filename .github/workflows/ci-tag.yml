@@ -1,9 +1,9 @@
-name: Tag CI - Jason Ruesch
+name: Tag CI
 
 on:
   push:
     tags:
-      - 'jasonruesch-v**'
+      - '**'
   workflow_dispatch:
 
 concurrency:
@@ -14,10 +14,16 @@ env:
   # Needed to remove the uknown/unknown OS/Arch from the docker container manifest
   BUILDX_NO_DEFAULT_ATTESTATIONS: 1
 
-permissions: write-all
+# Read permissions needed for nx-set-shas within nx-cloud-main.yml, when run on the main branch
+permissions:
+  actions: read
+  # Write permission needed for nx-semantic-release to create releases
+  contents: write
+  # Write permission needed for nx-semantic-release to create packages
+  packages: write
 
 jobs:
-  publish-docker:
+  docker-publish:
     runs-on: ubuntu-latest
     env:
       INPUT_PUSH: true
@@ -41,21 +47,6 @@ jobs:
       - run: npm ci
       - uses: nrwl/nx-set-shas@v3
 
-      - run: npx nx run jasonruesch:container
+      - run: npx nx affected -t container --parallel=1
         env:
           INPUT_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-  deploy-pages:
-    runs-on: ubuntu-latest
-    steps:
-      # Skip Nx cache to upload accurate build for deployment
-      - run: npx nx build jasonruesch --skip-nx-cache
-
-      - uses: actions/configure-pages@v3
-      - uses: actions/upload-pages-artifact@v2
-        with:
-          # Upload dist repository
-          path: './dist/jasonruesch'
-
-      - uses: actions/deploy-pages@v2
-        id: deployment
