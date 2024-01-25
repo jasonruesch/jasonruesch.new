@@ -1,3 +1,15 @@
+# [1.6.0](https://github.com/jasonruesch/jasonruesch/compare/tailwind-v1.5.0...tailwind-v1.6.0) (2024-01-25)
+
+
+### Features
+
+* **tailwind:** add custom plugins for base and components ([42a6282](https://github.com/jasonruesch/jasonruesch/commit/42a628223ae16bace5ec42100cf3d5c8b4444b6b))
+
+
+### Reverts
+
+* **repo:** roll back to publish npm from main workflow ([e6548cb](https://github.com/jasonruesch/jasonruesch/commit/e6548cbabb8274a525945cc5ebc575f930979f5e))
+
 # [1.3.0](https://github.com/jasonruesch/jasonruesch/compare/tailwind-v1.2.0...tailwind-v1.3.0) (2024-01-25)
 
 
