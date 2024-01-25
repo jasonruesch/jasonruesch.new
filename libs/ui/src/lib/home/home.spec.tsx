@@ -11,7 +11,7 @@ describe('Home', () => {
   it('should have a greeting as the title', () => {
     const { getByText } = render(<Home />);
     expect(
-      getByText(/Jason Ruesch/gi, {
+      getByText(/Jason Ruesch - blah to break this test/gi, {
         selector: 'h1',
       }),
     ).toBeTruthy();
