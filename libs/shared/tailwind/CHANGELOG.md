@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/jasonruesch/jasonruesch/compare/tailwind-v1.6.0...tailwind-v1.7.0) (2024-01-25)
+
+
+### Features
+
+* **jasonruesch:** move styles on index.html ([c90ccc8](https://github.com/jasonruesch/jasonruesch/commit/c90ccc89329d1c732c4179f88bdb5c3bdbc1a4a2))
+
 # [1.6.0](https://github.com/jasonruesch/jasonruesch/compare/tailwind-v1.5.0...tailwind-v1.6.0) (2024-01-25)
 
 
