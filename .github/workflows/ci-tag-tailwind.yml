@@ -1,0 +1,32 @@
+name: Tag CI - Tailwind
+
+on:
+  push:
+    tags:
+      - 'tailwind-v**'
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.ref }}
+  cancel-in-progress: true
+
+permissions: write-all
+
+jobs:
+  publish-npm:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # Setup .npmrc file to publish to npm
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '20.x'
+          registry-url: 'https://registry.npmjs.org'
+      - run: npm ci
+      # Skip Nx cache to upload accurate build for deployment
+      - run: npx nx build tailwind --skip-nx-cache
+
+      - run: npm publish
+        working-directory: ./dist/shared/lib/tailwind
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
