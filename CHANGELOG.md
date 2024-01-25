@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/jasonruesch/jasonruesch/compare/jasonruesch-v1.6.0...jasonruesch-v1.7.0) (2024-01-25)
+
+
+### Features
+
+* **tailwind:** add custom plugins for base and components ([3fa1b40](https://github.com/jasonruesch/jasonruesch/commit/3fa1b402c987eb09a480ef1ad0c0eb9d08e62b8b))
+
 # [1.6.0](https://github.com/jasonruesch/jasonruesch/compare/jasonruesch-v1.5.0...jasonruesch-v1.6.0) (2024-01-25)
 
 
