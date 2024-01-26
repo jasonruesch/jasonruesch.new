@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/jasonruesch/jasonruesch/compare/tailwind-v1.7.0...tailwind-v1.8.0) (2024-01-26)
+
+
+### Features
+
+* **jasonruesch:** add a fifth home variation ([81bba87](https://github.com/jasonruesch/jasonruesch/commit/81bba87b5fd27a1f0034284b0abaa9a45320f108))
+
 # [1.7.0](https://github.com/jasonruesch/jasonruesch/compare/tailwind-v1.6.0...tailwind-v1.7.0) (2024-01-25)
 
 
