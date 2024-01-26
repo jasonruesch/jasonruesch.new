@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/jasonruesch/jasonruesch/compare/tailwind-v1.8.0...tailwind-v1.9.0) (2024-01-26)
+
+
+### Features
+
+* **tailwind:** add cap line-height ([e976585](https://github.com/jasonruesch/jasonruesch/commit/e976585e838a804ed2e376825e8933836af275be))
+
 # [1.8.0](https://github.com/jasonruesch/jasonruesch/compare/tailwind-v1.7.0...tailwind-v1.8.0) (2024-01-26)
 
 
