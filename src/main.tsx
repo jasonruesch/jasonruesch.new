@@ -1,4 +1,4 @@
-import { Home, Home2, Home3, Home4 } from '@jasonruesch/ui';
+import { Home, Home2, Home3, Home4, Home5 } from '@jasonruesch/ui';
 import { StrictMode } from 'react';
 import * as ReactDOM from 'react-dom/client';
 import {
@@ -28,6 +28,10 @@ const router = createBrowserRouter([
       {
         path: 'home-4',
         element: <Home4 />,
+      },
+      {
+        path: 'home-5',
+        element: <Home5 />,
       },
     ],
   },
