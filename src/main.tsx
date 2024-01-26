@@ -1,7 +1,11 @@
-import { Home } from '@jasonruesch/ui';
+import { Home, Home2, Home3, Home4 } from '@jasonruesch/ui';
 import { StrictMode } from 'react';
 import * as ReactDOM from 'react-dom/client';
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import {
+  Navigate,
+  RouterProvider,
+  createBrowserRouter,
+} from 'react-router-dom';
 import App from './app/app';
 
 const router = createBrowserRouter([
@@ -11,9 +15,25 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
+        element: <Home3 />,
+      },
+      {
+        path: 'home-2',
+        element: <Home2 />,
+      },
+      {
+        path: 'home',
         element: <Home />,
       },
+      {
+        path: 'home-4',
+        element: <Home4 />,
+      },
     ],
+  },
+  {
+    path: '*',
+    element: <Navigate to="/" />,
   },
 ]);
 
