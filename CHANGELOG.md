@@ -1,3 +1,10 @@
+# [1.12.0](https://github.com/jasonruesch/jasonruesch/compare/jasonruesch-v1.11.0...jasonruesch-v1.12.0) (2024-01-26)
+
+
+### Features
+
+* **tailwind:** add cap line-height ([e976585](https://github.com/jasonruesch/jasonruesch/commit/e976585e838a804ed2e376825e8933836af275be))
+
 # [1.11.0](https://github.com/jasonruesch/jasonruesch/compare/jasonruesch-v1.10.0...jasonruesch-v1.11.0) (2024-01-26)
 
 
