@@ -19,7 +19,7 @@ export const tailwindPreset = {
     },
     extend: {
       lineHeight: {
-        cap: 'calc(1cap-1px)',
+        cap: 'calc(1cap - 1px)',
       },
     },
   },
