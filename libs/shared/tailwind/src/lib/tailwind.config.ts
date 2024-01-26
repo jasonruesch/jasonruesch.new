@@ -17,7 +17,11 @@ export const tailwindPreset = {
       black: colors.black,
       white: colors.white,
     },
-    extend: {},
+    extend: {
+      lineHeight: {
+        cap: 'calc(1cap-1px)',
+      },
+    },
   },
   plugins: [
     forms,
