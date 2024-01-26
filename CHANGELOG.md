@@ -1,3 +1,12 @@
+# [1.11.0](https://github.com/jasonruesch/jasonruesch/compare/jasonruesch-v1.10.0...jasonruesch-v1.11.0) (2024-01-26)
+
+
+### Features
+
+* **jasonruesch:** add a fifth home variation ([81bba87](https://github.com/jasonruesch/jasonruesch/commit/81bba87b5fd27a1f0034284b0abaa9a45320f108))
+* **jasonruesch:** try out different variations of home ([407dffc](https://github.com/jasonruesch/jasonruesch/commit/407dffc4e7e88dad01ee8b22a1c341106665b8a1))
+* **jasonruesch:** update home-5 layout ([749c75b](https://github.com/jasonruesch/jasonruesch/commit/749c75b5ca560c0ffa2358caf211bb44b3bd9f71))
+
 # [1.10.0](https://github.com/jasonruesch/jasonruesch/compare/jasonruesch-v1.9.0...jasonruesch-v1.10.0) (2024-01-25)
 
 
